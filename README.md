@@ -2,7 +2,7 @@
 
 EDR : https://lucid.app/lucidchart/b9d9e7bb-4126-4e80-9afc-601a91c44cb5/view
 
-### Query 1: join
+### Query 1: JOIN
 
 ```sql
 select booking_id, users.name as customer_name, vehicles.name as vehicle_name, start_date, end_date, bookings.status from bookings
