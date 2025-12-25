@@ -1,5 +1,7 @@
 # vehicle-rental-database
 
+EDR : https://lucid.app/lucidchart/b9d9e7bb-4126-4e80-9afc-601a91c44cb5/view
+
 ### Query 1: join
 
 ```sql
@@ -43,4 +45,4 @@ having count(bookings.vehicle_id)>2;
 
 #### Explanation
 
-Joins vehicles with bookings, COUNT calculates number of bookings each vehicle, GROUP BY groups results by vehicle, HAVING filters after counting results.
+Joins vehicles with bookings, counts the number of bookings for each vehicle, groups the results by vehicle, and then filters to show only those vehicles that meet the specified booking count
